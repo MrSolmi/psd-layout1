@@ -16,7 +16,6 @@ header {
 .container {
     width: 935px;
     margin: 0 auto;
-    padding-bottom: 160px;
 }
 
 .logo {
@@ -48,11 +47,12 @@ header {
     text-transform: uppercase;
 }
 
-.titles {
+.titles-1 {
     margin-top: 200px;
+    padding-bottom: 160px;
 }
 
-.title_first {
+.titles-1_1 {
     text-align: center;
     font-family: 'Arial', sans-serif;
     font-size: 40px;
@@ -60,7 +60,7 @@ header {
     text-transform: uppercase;
 }
 
-.title_second {
+.titles-1_2 {
     text-align: center;
     font-family: 'Arial', sans-serif;
     font-size: 75px;
@@ -70,12 +70,12 @@ header {
     margin-top: 27px;
 }
 
-.button {
+.titles-1_button {
     margin: 70px auto 0px auto;
     width: 240px;
 }
 
-.button a {
+.titles-1_button a {
     display: block;
     background-color: #fed136;
     padding: 20px 50px;
@@ -87,5 +87,59 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+}
 
+.panel-2 {
+    background-color: #ffffff;
+}
+
+.titles-2 {
+    margin: 110px auto 0 auto;
+    text-align: center;
+}
+
+.titles-2_1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #222222;
+}
+
+.titles-2_2 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #777777;
+}
+
+.set-of-services {
+    margin-top: 70px;
+}
+
+.set-of-services_block {
+    float: left;
+    width: 33.33%;
+}
+
+.set-of-services_block_icon {
+    width: 74px;
+    margin: 0px auto;
+}
+
+.set-of-services_block_titles_1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #222222;
+    margin-top: 20px
+}
+
+.set-of-services_block_titles_2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #777777;
+    margin-top: 10px;
 }
