@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -22,13 +22,34 @@ body {
     font-size: 16px;
     font-family: 'Arial', sans-serif;
     color: #777777;
-    margin: 10px 0px 0px 0px;
+}
+
+.description h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #222222;
+    margin-top: 20px;
+}
+
+.description p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #777777;
+    margin-top: 10px;
+    line-height: 1.5em;
 }
 
 .clearfix::after {
     content: '';
     clear: both;
     display: table;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 header {
@@ -111,42 +132,33 @@ header {
     text-decoration: none;
 }
 
-.panel-2 {
+#services {
     background-color: #ffffff;
 }
 
 .set-of-services {
     padding: 0 0 115px 0;
+    margin: 0 auto;
+    width: 910px;
 }
 
 .set-of-services_block {
     float: left;
-    width: 33.33%;
+    width: 250px;
+    margin-left: 80px;
+}
+
+.set-of-services_block:first-child {
+    margin-left: 0;
 }
 
 .set-of-services_block_icon {
     width: 74px;
     margin: 0px auto;
-}
-
-.set-of-services_block_titles_1 {
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    color: #222222;
     margin-top: 20px;
 }
 
-.set-of-services_block_titles_2 {
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    color: #777777;
-    margin-top: 10px;
-}
-
-.panel-3 {
+#our-portfolio {
     background-color: #f7f7f7;
 }
 
@@ -163,6 +175,43 @@ header {
     margin-left: 0px;
 }
 
-.set-of-examples img {
+.about-us-item {
+    margin-bottom: 90px;
+}
+
+.about-us-item .description {
+    width: 300px;
+}
+
+.left {
+    padding-right: 381px;
+}
+
+.left div{
+    float: right;
+}
+
+.left .description * {
+    text-align: right;
+}
+
+.left .description {
+    margin-right: 35px;
+}
+
+.right {
+    padding-left: 381px;
+}
+
+.right div{
+    float: left;
+}
+
+.right .description * {
+    text-align: left;
+}
+
+.right .description {
+    margin-left: 35px;
 }
 
